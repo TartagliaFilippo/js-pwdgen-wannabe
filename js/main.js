@@ -1,7 +1,7 @@
-let userName = prompt("Name");
-let userSurname = prompt("Surname");
-let userColor = prompt("Favourite Color");
+const userName = prompt("Name");
+const userSurname = prompt("Surname");
+const userColor = prompt("Favourite Color");
 
-let sumInformations = userName + userSurname + userColor;
+const sumInformations = userName + userSurname + userColor + "21";
 
 document.getElementById("userPreferences").innerHTML = sumInformations;
